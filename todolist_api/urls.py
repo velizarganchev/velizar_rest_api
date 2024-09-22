@@ -1,6 +1,6 @@
-from django.contrib import admin
-from django.urls import include, path
-from rest_framework import routers
+from django.contrib import admin # type: ignore
+from django.urls import include, path # type: ignore
+from rest_framework import routers # type: ignore
 
 from todo import views
 
